@@ -7,3 +7,6 @@
  function back() {
     window.location.href = 'index.html';
  }
+function no() {
+    alert("Sorry, this feature isn't available :( \nLove, Ren <3")
+}

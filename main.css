@@ -57,7 +57,7 @@ body {
     margin: auto;
     background-color: #FEC0CE;
     color: white;
-    width: 200px;
+    user-select: none;
 }
 
 .yes:active {
