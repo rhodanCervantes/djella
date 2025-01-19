@@ -53,9 +53,11 @@ body {
     margin: auto;
     border-radius: 10px;
     height: auto; 
-    width: 100px;
+    width: 200px;
 }
 
 .content {
-    display: inline;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
 }
