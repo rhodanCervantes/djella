@@ -52,7 +52,7 @@ body {
     display: inline-block;
     margin: auto;
     border-radius: 10px;
-    height: auto;
+    height: auto; 
     width: 100px;
 }
 
