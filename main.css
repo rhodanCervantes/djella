@@ -1,0 +1,61 @@
+body {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #A67F8E;
+    
+}
+
+.main {
+    /* display: inline-block; */
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #DBB3B1;
+}
+
+.font {
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    height: fit-content;
+}
+
+.buttons {
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+
+.yes {
+    display: inline-block;
+    border: none;
+    padding: auto;
+    margin: auto;
+}
+
+.no {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+}
+
+.photos {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+    height: auto;
+    width: 100px;
+}
+
+.content {
+    display: inline;
+}
