@@ -5,16 +5,26 @@ body {
     width: 100%;
     padding: 10px;
     background-color: #A67F8E;
-    
+    background-image: url('photos/illustration-ribbons-pastel-pink-background-gift-wrap-card-print-girly-pattern-blanket_884113-602.avif');
+    background-size: contain;
+}
+
+.line {
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .main {
-    /* display: inline-block; */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     text-align: center;
     position: relative;
     padding: 20px;
     border-radius: 10px;
     background-color: #DBB3B1;
+    color: white;
 }
 
 .font {
@@ -25,35 +35,69 @@ body {
     height: fit-content;
 }
 
+.form {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 .buttons {
     display: inline-block;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
+    text-align: center;
 }
 
 .yes {
-    display: inline-block;
-    border: none;
-    padding: auto;
-    margin: auto;
-}
-
-.no {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     display: inline-block;
     border: none;
     border-radius: 10px;
-    padding: auto;
+    padding: 25px;
     margin: auto;
+    background-color: #FEC0CE;
+    color: white;
+    width: 200px;
 }
 
+.yes:active {
+    background-color: #dda2b0;
+    transform: translateY(4px);
+  }
+
+.no {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    margin: auto;
+    background-color: #FEC0CE;
+    color: white;
+}
+
+.no:active {
+    background-color: #dda2b0;
+    transform: translateY(4px);
+  }
+
 .photos {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     box-sizing: border-box;
     display: inline-block;
     margin: auto;
+    margin-top: 10px;
     border-radius: 10px;
     height: auto; 
-    width: 200px;
+    width: 300px;
+}
+
+.tinypic {
+    display: inline;
+    height: auto;
+    width: 100px;
+    padding: 0;
+    margin: 0;
 }
 
 .content {
